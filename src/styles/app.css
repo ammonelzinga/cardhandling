@@ -1,0 +1,12 @@
+.app { max-width: 1200px; margin: 0 auto; padding: 24px; }
+.app__header { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.tabs { display: flex; gap: 12px; flex-wrap: wrap; }
+.tab { padding: 8px 12px; border: 1px solid var(--border); border-radius: 999px; color: var(--fg); text-decoration: none; }
+.tab:hover { border-color: var(--accent); }
+.tab.active { background: var(--accent); color: #0b1020; border-color: var(--accent); }
+.chip { padding: 10px 14px; border: 1px solid var(--border); border-radius: 12px; background: var(--card-bg); color: var(--fg); text-decoration: none; }
+.chip:hover { border-color: var(--accent); }
+.app__main { margin-top: 24px; }
+.app__footer { margin-top: 40px; color: var(--muted); font-size: 12px; }
+
+.flip:hover { transform: rotateY(180deg); }
